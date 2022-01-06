@@ -16,6 +16,7 @@ public class MyNetbeeansProject6 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        //here is peterson code, to make a pull request
     }
     
 }
