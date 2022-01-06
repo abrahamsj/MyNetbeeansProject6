@@ -1,0 +1,7 @@
+/InventoryReport/nbproject/private/
+/InventoryReport/build/
+
+build/
+nbproject/
+*.xml
+*.mf
