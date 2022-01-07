@@ -8,6 +8,6 @@ package mynetbeeansproject6;
  *
  * @author Peter Laptop
  */
-public class peteClass {
+public class Dealer {
     
 }
