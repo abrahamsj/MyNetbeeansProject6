@@ -46,6 +46,24 @@ public class Card {
     public boolean getIsJack(){
         return isJack;
     }
-            
     
+    public boolean getIsQueen(){
+        return isQueen;
+    }
+    
+    public boolean getIsKing(){
+        return isKing;
+    }
+        
+public boolean getIsAce(){
+        return isAce;
+    }  
+
+public int getCardval(){
+        return cardValue;
+    }
+    
+public String getCardColor(){
+        return color;
+    }
 }
