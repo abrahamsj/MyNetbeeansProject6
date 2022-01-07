@@ -5,19 +5,26 @@
  */
 package mynetbeeansproject6;
 
+import java.time.Clock;
+
 /**
  *
  * @author neely
+ * @author pistolPete
  */
-public class MyNetbeeansProject6 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //here is peterson code, to make a pull request
-        //commit 2 on the default branch!!! peterson N
+          //Initialize game code  
+        System.out.println("hello");
+      
+        
+        
+        
     }
     
 }
