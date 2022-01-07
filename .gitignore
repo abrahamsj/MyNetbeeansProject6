@@ -1,4 +1,12 @@
+<<<<<<< Updated upstream
 /build/
 /dist/
 nbproject/project.properties
 nbproject/project.properties
+=======
+
+build/classes/.netbeans_automatic_build
+build/built-jar.properties
+>>>>>>> Stashed changes
+build/classes/.netbeans_update_resources
+*.class
