@@ -20,7 +20,8 @@ public class Main {
     public static void main(String[] args) {
         // TODO code application logic here
           //Initialize game code  
-        System.out.println("hello");
+        Game game = new Game(); 
+        System.out.println(game.start());
       
         
         

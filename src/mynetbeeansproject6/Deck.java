@@ -8,10 +8,6 @@ package mynetbeeansproject6;
  *
  * @author Peter Laptop
  */
-public class Game {
+public class Deck {
     
-    
-    public String start(){
-        return "Welcome to the game of BlackJack ";
-    }
 }

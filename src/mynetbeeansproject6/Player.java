@@ -8,10 +8,9 @@ package mynetbeeansproject6;
  *
  * @author Peter Laptop
  */
-public class Game {
+public class Player {
+    private String playerName; 
+    private double money; 
+    //TODO neely, create constructor AND getter AND Setter for these variables 
     
-    
-    public String start(){
-        return "Welcome to the game of BlackJack ";
-    }
 }
