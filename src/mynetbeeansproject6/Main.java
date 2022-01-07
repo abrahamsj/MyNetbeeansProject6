@@ -5,21 +5,27 @@
  */
 package mynetbeeansproject6;
 
+import java.time.Clock;
+
 /**
  *
  * @author neely
+ * @author pistolPete
  */
-public class MyNetbeeansProject6 {
+public class Main {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        //here is peterson code, to make a pull request
-         for(int i=1;i<=10;i++){  
-        System.out.println(i);  
-         }
+          //Initialize game code  
+        Game game = new Game(); 
+        System.out.println(game.start());
+      
+        
+        
+        
     }
     
 }
