@@ -11,7 +11,7 @@ package mynetbeeansproject6;
 public class Player {
     private String playerName; 
     private double money; 
-    //TODO neely, create constructor AND getter AND Setter for these variables 
+    
     public Player(String name,double amount){
         playerName = name;
         money = amount;       
