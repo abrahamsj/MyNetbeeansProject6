@@ -6,15 +6,17 @@ package mynetbeeansproject6;
 
 /**
  *
- * @author Peter Laptop
+ * @author Peter 
  */
 public class Player {
     private String playerName; 
     private double money; 
+    private Game.GameDifficultyEnum playerDiff;
     
-    public Player(String name,double amount){
+    public Player(String name,double amount,Game.GameDifficultyEnum playerDiff){
         playerName = name;
         money = amount;       
+        this.playerDiff = playerDiff;
     }
    
     public String getName(){
@@ -23,4 +25,5 @@ public class Player {
     public double getMoney(){
         return money;
     }
+    //TODO neely create a get game difficulty enum
 }

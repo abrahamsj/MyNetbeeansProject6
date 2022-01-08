@@ -21,7 +21,7 @@ public class Main {
         // TODO code application logic here
           //Initialize game code  
         Game game = new Game(); 
-        System.out.println(game.start());
+        game.start();
       
         
         

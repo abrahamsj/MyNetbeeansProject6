@@ -7,9 +7,10 @@ package mynetbeeansproject6;
 /**
  *
  * @author Peter Laptop
+ * a enum of card suits 
  */
-public enum Suit {
-    CLUBS, 
+public enum SuitEnum {
+                        CLUBS, 
                         DIAMONDS, 
                         HEARTS,
                         SPADES 

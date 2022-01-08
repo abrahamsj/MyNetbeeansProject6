@@ -5,3 +5,11 @@ build/classes/.netbeans_update_resources
 *.class
 *.xml
 build/
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/
