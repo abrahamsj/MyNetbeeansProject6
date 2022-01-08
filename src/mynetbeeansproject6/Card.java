@@ -38,7 +38,7 @@ public class Card {
     
     
     // getters so other classes can interact, (also will be used for debugging)
-    //TODO neely finish out the rest of the getters 
+   
     public Suit getSuit(){
         return suit;
     }
