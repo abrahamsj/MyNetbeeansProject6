@@ -1,12 +1,15 @@
-<<<<<<< Updated upstream
-/build/
-/dist/
-nbproject/project.properties
-nbproject/project.properties
-=======
 
 build/classes/.netbeans_automatic_build
 build/built-jar.properties
->>>>>>> Stashed changes
 build/classes/.netbeans_update_resources
 *.class
+*.xml
+build/
+**/nbproject/private/
+**/nbproject/Makefile-*.mk
+**/nbproject/Package-*.bash
+build/
+nbbuild/
+dist/
+nbdist/
+.nb-gradle/

@@ -6,7 +6,7 @@ package mynetbeeansproject6;
 
 /**
  *
- * @author Peter Laptop
+ * @author Peter 
  */
 
 
@@ -20,26 +20,26 @@ public class Card {
     /*
     refactored solution for face cards, create a 5 enum types for the cards
     */
-    Suit suit; //card shape 
+    SuitEnum suit; //card shape 
     
             
     
     //card constructor to create a new card object
-    public Card(String cardColor, int cardVal, boolean isJack, boolean isQueen, boolean isKing, boolean isAce, Suit suit ){
+    public Card(String cardColor, int cardVal, boolean isJack, boolean isQueen, boolean isKing, boolean isAce, SuitEnum suit ){
         color = cardColor;
         cardValue = cardVal; 
         this.isJack =isJack ; 
         this.isQueen=isQueen ;
         this.isKing=isKing;
-       this.isAce=isAce;
-       this.suit = suit;
+        this.isAce=isAce;
+        this.suit = suit;
     }
     
     
     
     // getters so other classes can interact, (also will be used for debugging)
-    //TODO neely finish out the rest of the getters 
-    public Suit getSuit(){
+   
+    public SuitEnum getSuit(){
         return suit;
     }
     
@@ -55,15 +55,15 @@ public class Card {
         return isKing;
     }
         
-public boolean getIsAce(){
+    public boolean getIsAce(){
         return isAce;
     }  
 
-public int getCardval(){
+    public int getCardval(){
         return cardValue;
     }
     
-public String getCardColor(){
+    public String getCardColor(){
         return color;
     }
 }

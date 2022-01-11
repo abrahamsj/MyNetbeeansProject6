@@ -1,6 +1,7 @@
 /InventoryReport/nbproject/private/
 /InventoryReport/build/
 
+dist/
 build/
 nbproject/
 *.xml

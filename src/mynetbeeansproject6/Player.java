@@ -6,15 +6,17 @@ package mynetbeeansproject6;
 
 /**
  *
- * @author Peter Laptop
+ * @author Peter 
  */
 public class Player {
     private String playerName; 
     private double money; 
-    //TODO neely, create constructor AND getter AND Setter for these variables 
-    public Player(String name,double amount){
+    private Game.GameDifficultyEnum playerDiff;
+    
+    public Player(String name,double amount,Game.GameDifficultyEnum playerDiff){
         playerName = name;
         money = amount;       
+        this.playerDiff = playerDiff;
     }
    
     public String getName(){
@@ -22,5 +24,9 @@ public class Player {
     }
     public double getMoney(){
         return money;
+    }
+    //TODO neely create a get game difficulty enum
+    public Game.GameDifficultyEnum getplayerlevel(){
+        return playerDiff;
     }
 }
